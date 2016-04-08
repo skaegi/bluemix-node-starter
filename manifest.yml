@@ -2,10 +2,7 @@ applications:
 - path: .
   memory: 512M
   instances: 1
-  domain: stage1.mybluemix.net
   name: 0804SampleApp2
-  host: 0804SampleApp2
-  disk_quota: 1024M
   services:
   - 0504SampleApp1-MonitoringAndAnalytics
   - 0804SampleApp2-DataCache
